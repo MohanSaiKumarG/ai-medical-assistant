@@ -107,7 +107,7 @@ const [healthScore, setHealthScore] = useState(100);
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/chat",
+        "https://ai-medical-backend-a6bw.onrender.com/chat",
         {
           method: "POST",
           headers: {
